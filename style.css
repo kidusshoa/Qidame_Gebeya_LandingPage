@@ -36,7 +36,7 @@
 }
 .section a:hover {
   font-size: larger;
-  color: red;
+  color: #332e24;
 }
 .home {
   display: flex;
@@ -239,4 +239,16 @@
   padding: 70px 0;
   justify-content: center;
   flex-direction: column;
+  gap: 25px;
+}
+.link {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+.link img {
+  width: 50px;
 }
